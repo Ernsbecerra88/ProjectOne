@@ -1,50 +1,4 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
- nav ul a,
- nav .brand-logo {
-   color: #444;
- }
- 
- p {
-   line-height: 2rem;
- }
- 
- .sidenav-trigger {
-   color: #121414;
- }
- 
- .parallax-container {
-   min-height: 380px;
-   line-height: 0;
-   height: auto;
-   color: rgba(36, 34, 34, 0.9);
- }
-   .parallax-container .section {
-     width: 100%;
-   }
- 
- @media only screen and (max-width : 992px) {
-   .parallax-container .section {
-     position: absolute;
-     top: 40%;
-   }
-   #index-banner .section {
-     top: 10%;
-   }
- }
- 
- @media only screen and (max-width : 600px) {
-   #index-banner .section {
-     top: 0;
-   }
- }
- 
  .icon-block {
    padding: 0 15px;
  }
@@ -54,28 +8,20 @@
  
  footer.page-footer {
    margin: 0;
-<<<<<<< HEAD
  }
  
  body{
-    background-color: #eee;
-}
-
-.portfolio-body{
-  background-color: #343434;
+    background-color: rgb(255, 255, 255);
 }
   
-.weather-container{
+.container{
     width: 500px;
     height: 300px;
-    margin:25vh auto;
-    border-radius: 25px;
-    box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
 }
   
 .header {
     height: 20%;
-    background-color: rgb(70, 43, 3);
+    background-color: rgb(20, 19, 19);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;
@@ -86,7 +32,7 @@
     font-family: "Courier New";
     font-weight: bold;
     font-size: 60px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -107,7 +53,7 @@
     font-family: "Courier New";
     font-size: 30px;
     font-weight: bold;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
   
 #icon {
@@ -124,7 +70,7 @@
     height: 80%;
     width: 50%;
     border-bottom-left-radius: 25px;
-    background-color: rgb(117, 113, 99);
+    background-color: rgb(32, 32, 30);
 }
   
 .temperature {
@@ -133,7 +79,7 @@
     top:0%;
     height: 40%;
     width: 50%;
-    background-color: rgb(73, 55, 77);
+    background-color:  rgb(32, 32, 30);
 }
   
 .humidity {
@@ -143,17 +89,11 @@
     left:50%;
     top:40%;
     border-bottom-right-radius: 25px;
-    background-color: rgb(77, 7, 30);
-}
-  
-#search-btn {
-    width: 40px;
-    height:40px;
-    color: #eee;
+    background-color:  rgb(32, 32, 30);
 }
   
 #search-txt {
-    color: rgb(221, 199, 199);
+    color: rgb(255, 255, 255);
     height:30px;
     border-radius: 10px;
     border-style:none;
@@ -170,6 +110,3 @@
     -webkit-transform:translate(-50%,-50%);
             transform:translate(-50%,-50%);
 }
-=======
- }
->>>>>>> master

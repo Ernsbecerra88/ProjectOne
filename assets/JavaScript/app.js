@@ -19,12 +19,12 @@ function enterPressed(event) {
 
 function findWeatherDetails() {
   if (searchInput.value === "") {
-  
-  }else {
-    let searchLink = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput.value + "&appid="+appKey;
-   httpRequestAsync(searchLink, theResponse);
+
+  } else {
+    let searchLink = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput.value + "&appid=" + appKey;
+    httpRequestAsync(searchLink, theResponse);
   }
- }
+}
 
 function theResponse(response) {
   let jsonObject = JSON.parse(response);
@@ -34,16 +34,15 @@ function theResponse(response) {
   humidity.innerHTML = jsonObject.main.humidity + "%";
 }
 
-function httpRequestAsync(url, callback)
-{
+function httpRequestAsync(url, callback) {
   console.log("hello");
-    var httpRequest = new XMLHttpRequest();
-    httpRequest.onreadystatechange = () => { 
-        if (httpRequest.readyState == 4 && httpRequest.status == 200)
-            callback(httpRequest.responseText);
-    }
-    httpRequest.open("GET", url, true);  
-    httpRequest.send();
+  var httpRequest = new XMLHttpRequest();
+  httpRequest.onreadystatechange = () => {
+    if (httpRequest.readyState == 4 && httpRequest.status == 200)
+      callback(httpRequest.responseText);
+  }
+  httpRequest.open("GET", url, true);
+  httpRequest.send();
 }
 
 
