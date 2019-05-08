@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pierre Camarena</title>
     <!-- CSS  -->
+    <link rel="icon" href="assets/Images/backGroundImage.jpg">
+    <link href="assets/Css/reset.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="assets/Css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="assets/Css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 
@@ -34,16 +36,18 @@
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+    </nav>
     <div class="card-body">
-        <h2>Contact Me</h2>
+        <h2 class= "white-text">Contact Me</h2>
 
-        <form method="POST" action="https://formspree.io/ernsbecerra@gmail.com">
-            <input type="text" name="usertext" placeholder="Full Name">
-            <input type="email" name="email" placeholder="Email Address">
-            <textarea name="message" placeholder="Message"></textarea>
+        <form name="myForm" action="https://formspree.io/ernsbecerra@gmail.com" onsubmit="return validateForm()" method="POST">
+            <input class= "white-text" type="text" name="usertext" placeholder="Full Name">
+            <input class= "white-text" type="email" name="email" placeholder="Email Address">
+            <textarea class= "white-text" name="message" placeholder="Message"></textarea>
             <button type="submit">Send</button>
         </form>
     </div>
+
 </body>
 
 </html>
@@ -51,9 +55,9 @@
 
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="assets/JavaScript/materialize.min.js"></script>
 <script src="assets/JavaScript/materialize.js"></script>
 <script src="assets/JavaScript/init.js"></script>
+
 
 </body>
 

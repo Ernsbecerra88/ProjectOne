@@ -45,4 +45,11 @@ function httpRequestAsync(url, callback) {
   httpRequest.send();
 }
 
+function validateForm() {
+  var x = document.forms["myForm"]["usertext"]["email"]["message"].value;
+  if (x == "") {
+    alert("Field must be filled out");
+    return false;
+  }
+}
 
