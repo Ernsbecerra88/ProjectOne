@@ -38,16 +38,17 @@
     </nav>
     </nav>
     <div class="card-body">
-        <h2 class= "white-text">Contact Me</h2>
-
-        <form name="myForm" action="https://formspree.io/ernsbecerra@gmail.com" onsubmit="return validateForm()" method="POST">
-            <input class= "white-text" type="text" name="usertext" placeholder="Full Name">
-            <input class= "white-text" type="email" name="email" placeholder="Email Address">
-            <textarea class= "white-text" name="message" placeholder="Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+        <h2 class="white-text">Contact Me</h2>
+        <div class="section">
+            <form name="myForm" action="https://formspree.io/ernsbecerra@gmail.com" onsubmit="return validateForm()"
+                method="POST">
+                <input class="white-text" type="text" name="first-name" placeholder="Full Name">
+                <input class="white-text" type="email" name="email" placeholder="Email Address">
+                <textarea class="white-text" name="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </div>
-
 </body>
 
 </html>
