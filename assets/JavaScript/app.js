@@ -45,4 +45,8 @@ function httpRequestAsync(url, callback) {
   httpRequest.send();
 }
 
+// Yelp API
+apiKey = "tRGJ91yjb4vA_VJ1ny2z098PRRweED9DAwlPwJNeqfDuVovHrsNDBfjdjrlqnJuuGaMTf8mIUYscju9o3SJaUtt6akMlCR6Edx443DNDZBKy00Xp1wTWnrfamznSXHYx";
+
+
 
