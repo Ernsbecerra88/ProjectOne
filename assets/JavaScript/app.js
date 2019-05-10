@@ -46,10 +46,9 @@ function httpRequestAsync(url, callback) {
 }
 
 function validateForm() {
-  var x = document.forms["myForm"]["usertext"]["email"]["message"].value;
+  var x = document.forms["myForm"]["fname"].value;
   if (x == "") {
-    alert("Field must be filled out");
+    alert("Name must be filled out");
     return false;
   }
 }
-
