@@ -8,16 +8,18 @@
     <title>Pierre Camarena</title>
     <!-- CSS  -->
     <link rel="icon" href="assets/Images/backGroundImage.jpg">
+    <link href="assets/Css/reset.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="assets/Css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="assets/Css/style2.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 <body>
     <nav class="black" role="navigation">
-        <div class="">
+        <div class="container">
             <a id="logo-container" href="index.html" class="brand-logo class= white-text">Pierre Camarena</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html" class="white-text">Home</a></li>
@@ -33,48 +35,51 @@
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
+    </nav>
 
     <body>
         <!---Weather online teller-->
         <div class="container">
             <header class="header">
-              <div class="search">
-                <input type="text" placeholder="Enter City Name" id="search-txt">
-                <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
-            </div>
-        </header>
-
-        <main id="main">
-
-            <div class="city-icon">
-                <div class="city-icon-holder">
-                    <div id="city-name"></div>
-                    <img src="" alt="" id="icon">
+                <div class="search">
+                    <input type="text" placeholder="Enter City Name" id="search-txt">
+                    <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
                 </div>
-            </div>
+            </header>
 
-            <div class="temperature">
-                <div id="temp"></div>
-            </div>
+            <main id="main">
 
-            <div class="humidity">
-                <div id="humidity-div"></div>
-              </div>
-              
+                <div class="city-icon">
+                    <div class="city-icon-holder">
+                        <div id="city-name"></div>
+                        <img src="" alt="" id="icon">
+                    </div>
+
+                    <div class="temperature">
+                        <div id="temp"></div>
+                    </div>
+
+                    <div class="humidity">
+                        <div id="humidity-div"></div>
+                    </div>
+
             </main>
-            
+
         </div>
         <!-- Calendly inline widget begin AND API -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/eduardosanchez27-es/120-mins" style="min-width:320px;height:580px;"></div>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/eduardosanchez27-es/120-mins"
+            style="min-width:320px;height:580px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 
     </body>
-    
 
 
-    <!--  Scripts-->
+
+    <!--  jquery Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="assets/JavaScript/materialize.min.js"></script>
+
+    <!--  java script with calendly api-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="assets/JavaScript/materialize.js"></script>
     <script src="assets/JavaScript/init.js"></script>
     <script src="assets/JavaScript/app.js"></script>

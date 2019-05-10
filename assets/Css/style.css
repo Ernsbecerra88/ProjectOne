@@ -21,6 +21,10 @@
    color: rgb(255, 255, 255);
    
  }
+ button {
+   background-color: #444;
+   color: rgb(255, 255, 255);
+ }
  
  p {
    line-height: 2rem;
@@ -46,7 +50,7 @@
      position: absolute;
      top: 40%;
    }
-   #index-banner .section {
+   #index-banner .section  {
      top: 10%;
    }
  }
